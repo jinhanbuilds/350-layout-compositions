@@ -1,24 +1,57 @@
-# 100 种排版
+# 350 种排版 · 分类图鉴
 
-一个用于交流和参考的 100 张排版构图图片合集。每张图片都保留高清 PNG 原图，README 使用轻量缩略图展示，方便在 GitHub 页面里快速浏览。
+从经典构图、视觉原则，到出版广告、字体网格、网页 UI、影视、中国传统构图和演示文稿：一套可浏览、可检索、可下载的 350 种排版知识图鉴。
 
-## 下载
+> 这是原「100 种排版」项目的新版扩展。旧版 100 张高清图、缩略图和下方画廊均原样保留，原有链接继续可用。
 
-- [下载全部高清图片 ZIP](https://github.com/nevertoday/100-layout-compositions/releases/latest/download/100-layout-compositions-images.zip)
-- 单张高清图：点击下方任意缩略图即可打开对应 PNG。
+## 浏览新版
 
-> ZIP 文件作为 GitHub Release 附件提供，不直接提交进仓库。
+**[打开 350 种排版完整分类图鉴 →](docs/350/README.md)**
+
+| 分类 | 数量 | 编号 | 分类 | 数量 | 编号 |
+| --- | ---: | --- | --- | ---: | --- |
+| [构图逻辑](docs/350/01-composition-logic.md) | 86 | 001–086 | [视觉原则与阅读模式](docs/350/02-visual-principles.md) | 45 | 087–131 |
+| [平面、出版与广告](docs/350/03-editorial-advertising.md) | 36 | 132–167 | [字体、网格与东亚文字](docs/350/04-type-grid-cjk.md) | 54 | 168–221 |
+| [网页与 UI](docs/350/05-web-ui.md) | 79 | 222–300 | [影视画面构图](docs/350/06-film-frame.md) | 14 | 301–314 |
+| [中国传统构图](docs/350/07-chinese-composition.md) | 20 | 315–334 | [演示文稿页面](docs/350/08-presentation.md) | 16 | 335–350 |
+
+<p align="center">
+  <a href="docs/350/01-composition-logic.md"><img src="v2/thumbnails/01-composition-logic/001-三分法构图.jpg" width="180" alt="001 三分法构图"></a>
+  <a href="docs/350/02-visual-principles.md"><img src="v2/thumbnails/02-visual-principles/087-放射平衡原则.jpg" width="180" alt="087 放射平衡原则"></a>
+  <a href="docs/350/03-editorial-advertising.md"><img src="v2/thumbnails/03-editorial-advertising/132-单栏版式.jpg" width="180" alt="132 单栏版式"></a>
+  <a href="docs/350/04-type-grid-cjk.md"><img src="v2/thumbnails/04-type-grid-cjk/168-轴线系统.jpg" width="180" alt="168 轴线系统"></a>
+</p>
+
+<p align="center">
+  <a href="docs/350/05-web-ui.md"><img src="v2/thumbnails/05-web-ui/222-普通流布局.jpg" width="180" alt="222 普通流布局"></a>
+  <a href="docs/350/06-film-frame.md"><img src="v2/thumbnails/06-film-frame/301-单人构图.jpg" width="180" alt="301 单人构图"></a>
+  <a href="docs/350/07-chinese-composition.md"><img src="v2/thumbnails/07-chinese-composition/315-高远法.jpg" width="180" alt="315 高远法"></a>
+  <a href="docs/350/08-presentation.md"><img src="v2/thumbnails/08-presentation/335-标题幻灯片幻灯片版式.jpg" width="180" alt="335 标题幻灯片版式"></a>
+</p>
+
+## 下载与数据
+
+- 单张高清图：在分类页面点击任意缩略图，即可打开 1086 × 1448 PNG。
+- 全部高清图：浏览 [`v2/images/`](v2/images/)；发布版 ZIP 将作为 GitHub Release 附件提供。
+- 数据目录：[`catalog.csv`](v2/catalog.csv) / [`catalog.json`](v2/catalog.json)，包含编号、名称、分类、路径、尺寸与 SHA-256。
+- 经典版 ZIP：[下载旧版 100 张高清图片](https://github.com/nevertoday/100-layout-compositions/releases/latest/download/100-layout-compositions-images.zip)。
 
 ## 项目结构
 
 ```text
-images/       高清 PNG 原图，共 100 张
-thumbnails/   README 预览缩略图，共 100 张
-docs/         README 使用的项目说明图片
-dist/         本地生成的下载压缩包，不提交到 Git
+v2/images/        新版 350 张高清 PNG，按 8 类组织
+v2/thumbnails/    新版 GitHub 预览缩略图
+v2/catalog.*      新版机器可读目录（CSV / JSON）
+docs/350/         新版总目录与 8 个分类画廊
+images/           经典版 100 张高清 PNG（保留）
+thumbnails/       经典版 100 张缩略图（保留）
+scripts/          新版素材导入与画廊生成工具
+dist/             本地生成的发布压缩包，不提交到 Git
 ```
 
-## 预览
+## 经典版：100 种排版
+
+下面是项目最初发布的 100 张排版构图。它们继续保留，方便已有引用和收藏使用。
 
 <!-- gallery:start -->
 <p align="center">
