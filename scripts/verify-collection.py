@@ -57,6 +57,13 @@ def verify_v2() -> list[dict[str, object]]:
     categories = {item["category_slug"] for item in catalog}
     if len(categories) != 8:
         fail(f"新版分类应为 8 个，实际为 {len(categories)} 个")
+    subcategories = {item.get("subcategory_slug") for item in catalog}
+    if None in subcategories or len(subcategories) != 33:
+        fail(f"新版二级分类应为 33 个，实际为 {len(subcategories - {None})} 个")
+    for json_item, csv_item in zip(catalog, csv_catalog, strict=True):
+        for field in ("category", "category_slug", "subcategory", "subcategory_slug"):
+            if str(json_item[field]) != csv_item[field]:
+                fail(f"{json_item['id']} 的 JSON/CSV 字段不一致：{field}")
 
     for item in catalog:
         image_path = REPO / str(item["image"])
@@ -85,11 +92,16 @@ def verify_markdown_links() -> None:
         text = page.read_text(encoding="utf-8")
         for match in link_pattern.finditer(text):
             link = match.group(1) or match.group(2)
-            if link.startswith(("http://", "https://", "#", "mailto:")):
+            if link.startswith(("http://", "https://", "mailto:")):
                 continue
-            path = (page.parent / link).resolve()
+            target, _, fragment = link.partition("#")
+            path = page if not target else (page.parent / target).resolve()
             if not path.exists():
                 fail(f"链接不存在：{page.relative_to(REPO)} -> {link}")
+            if fragment and path.suffix == ".md":
+                target_text = path.read_text(encoding="utf-8")
+                if f'id="{fragment}"' not in target_text:
+                    fail(f"页面锚点不存在：{page.relative_to(REPO)} -> {link}")
 
 
 def main() -> None:
@@ -101,7 +113,7 @@ def main() -> None:
         category = str(item["category"])
         category_counts[category] = category_counts.get(category, 0) + 1
     summary = "，".join(f"{name} {count}" for name, count in category_counts.items())
-    print(f"验证通过：经典版 100 张；新版 350 张 / 8 类（{summary}）；本地链接完整。")
+    print(f"验证通过：经典版 100 张；新版 350 张 / 8 个一级分类 / 33 个二级分类（{summary}）；本地链接完整。")
 
 
 if __name__ == "__main__":

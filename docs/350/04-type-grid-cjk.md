@@ -4,6 +4,14 @@
 
 [← 返回 350 种排版总目录](README.md)
 
+**本类主题：** [字体组织系统](#type-systems) · [对齐、缩进与文字造型](#typesetting) · [网格系统](#grid-systems) · [东亚文字与混排](#cjk-writing)
+
+<a id="type-systems"></a>
+
+## 字体组织系统 · 8 种
+
+轴线、放射、扩张、随机、网格与双边系统。 `168–175`
+
 | <a href="../../v2/images/04-type-grid-cjk/168-轴线系统.png"><img src="../../v2/thumbnails/04-type-grid-cjk/168-轴线系统.jpg" width="180" alt="168 轴线系统"></a> | <a href="../../v2/images/04-type-grid-cjk/169-放射系统.png"><img src="../../v2/thumbnails/04-type-grid-cjk/169-放射系统.jpg" width="180" alt="169 放射系统"></a> | <a href="../../v2/images/04-type-grid-cjk/170-扩张系统.png"><img src="../../v2/thumbnails/04-type-grid-cjk/170-扩张系统.jpg" width="180" alt="170 扩张系统"></a> | <a href="../../v2/images/04-type-grid-cjk/171-随机系统.png"><img src="../../v2/thumbnails/04-type-grid-cjk/171-随机系统.jpg" width="180" alt="171 随机系统"></a> |
 | :---: | :---: | :---: | :---: |
 | **168**<br>轴线系统 | **169**<br>放射系统 | **170**<br>扩张系统 | **171**<br>随机系统 |
@@ -11,6 +19,12 @@
 | <a href="../../v2/images/04-type-grid-cjk/172-网格系统.png"><img src="../../v2/thumbnails/04-type-grid-cjk/172-网格系统.jpg" width="180" alt="172 网格系统"></a> | <a href="../../v2/images/04-type-grid-cjk/173-模块系统.png"><img src="../../v2/thumbnails/04-type-grid-cjk/173-模块系统.jpg" width="180" alt="173 模块系统"></a> | <a href="../../v2/images/04-type-grid-cjk/174-过渡系统.png"><img src="../../v2/thumbnails/04-type-grid-cjk/174-过渡系统.jpg" width="180" alt="174 过渡系统"></a> | <a href="../../v2/images/04-type-grid-cjk/175-双边系统.png"><img src="../../v2/thumbnails/04-type-grid-cjk/175-双边系统.jpg" width="180" alt="175 双边系统"></a> |
 | :---: | :---: | :---: | :---: |
 | **172**<br>网格系统 | **173**<br>模块系统 | **174**<br>过渡系统 | **175**<br>双边系统 |
+
+<a id="typesetting"></a>
+
+## 对齐、缩进与文字造型 · 18 种
+
+对齐方式、绕排、缩进、基线、路径与横竖排。 `176–193`
 
 | <a href="../../v2/images/04-type-grid-cjk/176-左对齐右参差.png"><img src="../../v2/thumbnails/04-type-grid-cjk/176-左对齐右参差.jpg" width="180" alt="176 左对齐右参差"></a> | <a href="../../v2/images/04-type-grid-cjk/177-右对齐左参差.png"><img src="../../v2/thumbnails/04-type-grid-cjk/177-右对齐左参差.jpg" width="180" alt="177 右对齐左参差"></a> | <a href="../../v2/images/04-type-grid-cjk/178-居中排版.png"><img src="../../v2/thumbnails/04-type-grid-cjk/178-居中排版.jpg" width="180" alt="178 居中排版"></a> | <a href="../../v2/images/04-type-grid-cjk/179-两端对齐.png"><img src="../../v2/thumbnails/04-type-grid-cjk/179-两端对齐.jpg" width="180" alt="179 两端对齐"></a> |
 | :---: | :---: | :---: | :---: |
@@ -28,25 +42,41 @@
 | :---: | :---: | :---: | :---: |
 | **188**<br>基线对齐 | **189**<br>形状文字 | **190**<br>图形诗排版 | **191**<br>路径文字 |
 
-| <a href="../../v2/images/04-type-grid-cjk/192-垂直文字排版.png"><img src="../../v2/thumbnails/04-type-grid-cjk/192-垂直文字排版.jpg" width="180" alt="192 垂直文字排版"></a> | <a href="../../v2/images/04-type-grid-cjk/193-水平文字排版.png"><img src="../../v2/thumbnails/04-type-grid-cjk/193-水平文字排版.jpg" width="180" alt="193 水平文字排版"></a> | <a href="../../v2/images/04-type-grid-cjk/194-手稿网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/194-手稿网格.jpg" width="180" alt="194 手稿网格"></a> | <a href="../../v2/images/04-type-grid-cjk/195-分栏网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/195-分栏网格.jpg" width="180" alt="195 分栏网格"></a> |
+| <a href="../../v2/images/04-type-grid-cjk/192-垂直文字排版.png"><img src="../../v2/thumbnails/04-type-grid-cjk/192-垂直文字排版.jpg" width="180" alt="192 垂直文字排版"></a> | <a href="../../v2/images/04-type-grid-cjk/193-水平文字排版.png"><img src="../../v2/thumbnails/04-type-grid-cjk/193-水平文字排版.jpg" width="180" alt="193 水平文字排版"></a> |  |  |
 | :---: | :---: | :---: | :---: |
-| **192**<br>垂直文字排版 | **193**<br>水平文字排版 | **194**<br>手稿网格 | **195**<br>分栏网格 |
+| **192**<br>垂直文字排版 | **193**<br>水平文字排版 |  |  |
 
-| <a href="../../v2/images/04-type-grid-cjk/196-模块化网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/196-模块化网格.jpg" width="180" alt="196 模块化网格"></a> | <a href="../../v2/images/04-type-grid-cjk/197-层级网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/197-层级网格.jpg" width="180" alt="197 层级网格"></a> | <a href="../../v2/images/04-type-grid-cjk/198-基线网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/198-基线网格.jpg" width="180" alt="198 基线网格"></a> | <a href="../../v2/images/04-type-grid-cjk/199-复合网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/199-复合网格.jpg" width="180" alt="199 复合网格"></a> |
-| :---: | :---: | :---: | :---: |
-| **196**<br>模块化网格 | **197**<br>层级网格 | **198**<br>基线网格 | **199**<br>复合网格 |
+<a id="grid-systems"></a>
 
-| <a href="../../v2/images/04-type-grid-cjk/200-非对称网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/200-非对称网格.jpg" width="180" alt="200 非对称网格"></a> | <a href="../../v2/images/04-type-grid-cjk/201-方格网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/201-方格网格.jpg" width="180" alt="201 方格网格"></a> | <a href="../../v2/images/04-type-grid-cjk/202-等距网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/202-等距网格.jpg" width="180" alt="202 等距网格"></a> | <a href="../../v2/images/04-type-grid-cjk/203-放射网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/203-放射网格.jpg" width="180" alt="203 放射网格"></a> |
-| :---: | :---: | :---: | :---: |
-| **200**<br>非对称网格 | **201**<br>方格网格 | **202**<br>等距网格 | **203**<br>放射网格 |
+## 网格系统 · 18 种
 
-| <a href="../../v2/images/04-type-grid-cjk/204-极坐标网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/204-极坐标网格.jpg" width="180" alt="204 极坐标网格"></a> | <a href="../../v2/images/04-type-grid-cjk/205-嵌套网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/205-嵌套网格.jpg" width="180" alt="205 嵌套网格"></a> | <a href="../../v2/images/04-type-grid-cjk/206-子网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/206-子网格.jpg" width="180" alt="206 子网格"></a> | <a href="../../v2/images/04-type-grid-cjk/207-固定网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/207-固定网格.jpg" width="180" alt="207 固定网格"></a> |
-| :---: | :---: | :---: | :---: |
-| **204**<br>极坐标网格 | **205**<br>嵌套网格 | **206**<br>子网格 | **207**<br>固定网格 |
+手稿、分栏、模块、层级、响应式与解构网格。 `194–211`
 
-| <a href="../../v2/images/04-type-grid-cjk/208-流体网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/208-流体网格.jpg" width="180" alt="208 流体网格"></a> | <a href="../../v2/images/04-type-grid-cjk/209-响应式网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/209-响应式网格.jpg" width="180" alt="209 响应式网格"></a> | <a href="../../v2/images/04-type-grid-cjk/210-破格网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/210-破格网格.jpg" width="180" alt="210 破格网格"></a> | <a href="../../v2/images/04-type-grid-cjk/211-解构网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/211-解构网格.jpg" width="180" alt="211 解构网格"></a> |
+| <a href="../../v2/images/04-type-grid-cjk/194-手稿网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/194-手稿网格.jpg" width="180" alt="194 手稿网格"></a> | <a href="../../v2/images/04-type-grid-cjk/195-分栏网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/195-分栏网格.jpg" width="180" alt="195 分栏网格"></a> | <a href="../../v2/images/04-type-grid-cjk/196-模块化网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/196-模块化网格.jpg" width="180" alt="196 模块化网格"></a> | <a href="../../v2/images/04-type-grid-cjk/197-层级网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/197-层级网格.jpg" width="180" alt="197 层级网格"></a> |
 | :---: | :---: | :---: | :---: |
-| **208**<br>流体网格 | **209**<br>响应式网格 | **210**<br>破格网格 | **211**<br>解构网格 |
+| **194**<br>手稿网格 | **195**<br>分栏网格 | **196**<br>模块化网格 | **197**<br>层级网格 |
+
+| <a href="../../v2/images/04-type-grid-cjk/198-基线网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/198-基线网格.jpg" width="180" alt="198 基线网格"></a> | <a href="../../v2/images/04-type-grid-cjk/199-复合网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/199-复合网格.jpg" width="180" alt="199 复合网格"></a> | <a href="../../v2/images/04-type-grid-cjk/200-非对称网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/200-非对称网格.jpg" width="180" alt="200 非对称网格"></a> | <a href="../../v2/images/04-type-grid-cjk/201-方格网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/201-方格网格.jpg" width="180" alt="201 方格网格"></a> |
+| :---: | :---: | :---: | :---: |
+| **198**<br>基线网格 | **199**<br>复合网格 | **200**<br>非对称网格 | **201**<br>方格网格 |
+
+| <a href="../../v2/images/04-type-grid-cjk/202-等距网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/202-等距网格.jpg" width="180" alt="202 等距网格"></a> | <a href="../../v2/images/04-type-grid-cjk/203-放射网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/203-放射网格.jpg" width="180" alt="203 放射网格"></a> | <a href="../../v2/images/04-type-grid-cjk/204-极坐标网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/204-极坐标网格.jpg" width="180" alt="204 极坐标网格"></a> | <a href="../../v2/images/04-type-grid-cjk/205-嵌套网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/205-嵌套网格.jpg" width="180" alt="205 嵌套网格"></a> |
+| :---: | :---: | :---: | :---: |
+| **202**<br>等距网格 | **203**<br>放射网格 | **204**<br>极坐标网格 | **205**<br>嵌套网格 |
+
+| <a href="../../v2/images/04-type-grid-cjk/206-子网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/206-子网格.jpg" width="180" alt="206 子网格"></a> | <a href="../../v2/images/04-type-grid-cjk/207-固定网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/207-固定网格.jpg" width="180" alt="207 固定网格"></a> | <a href="../../v2/images/04-type-grid-cjk/208-流体网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/208-流体网格.jpg" width="180" alt="208 流体网格"></a> | <a href="../../v2/images/04-type-grid-cjk/209-响应式网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/209-响应式网格.jpg" width="180" alt="209 响应式网格"></a> |
+| :---: | :---: | :---: | :---: |
+| **206**<br>子网格 | **207**<br>固定网格 | **208**<br>流体网格 | **209**<br>响应式网格 |
+
+| <a href="../../v2/images/04-type-grid-cjk/210-破格网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/210-破格网格.jpg" width="180" alt="210 破格网格"></a> | <a href="../../v2/images/04-type-grid-cjk/211-解构网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/211-解构网格.jpg" width="180" alt="211 解构网格"></a> |  |  |
+| :---: | :---: | :---: | :---: |
+| **210**<br>破格网格 | **211**<br>解构网格 |  |  |
+
+<a id="cjk-writing"></a>
+
+## 东亚文字与混排 · 10 种
+
+横排、直排、纵中横、中西文转向、双向与旁注。 `212–221`
 
 | <a href="../../v2/images/04-type-grid-cjk/212-横排左起.png"><img src="../../v2/thumbnails/04-type-grid-cjk/212-横排左起.jpg" width="180" alt="212 横排左起"></a> | <a href="../../v2/images/04-type-grid-cjk/213-横排右起.png"><img src="../../v2/thumbnails/04-type-grid-cjk/213-横排右起.jpg" width="180" alt="213 横排右起"></a> | <a href="../../v2/images/04-type-grid-cjk/214-直排右起.png"><img src="../../v2/thumbnails/04-type-grid-cjk/214-直排右起.jpg" width="180" alt="214 直排右起"></a> | <a href="../../v2/images/04-type-grid-cjk/215-直排左起.png"><img src="../../v2/thumbnails/04-type-grid-cjk/215-直排左起.jpg" width="180" alt="215 直排左起"></a> |
 | :---: | :---: | :---: | :---: |

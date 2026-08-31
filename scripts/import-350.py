@@ -22,6 +22,15 @@ class Category:
     description: str
 
 
+@dataclass(frozen=True)
+class Subcategory:
+    start: int
+    end: int
+    slug: str
+    title: str
+    description: str
+
+
 CATEGORIES = (
     Category("构图逻辑名称", "01-composition-logic", "构图逻辑", "从经典比例、几何形态、空间层次到视点组织，建立画面的基础骨架。"),
     Category("视觉原则与阅读模式名称", "02-visual-principles", "视觉原则与阅读模式", "用格式塔原则、视觉层级和阅读路径解释信息如何被看见与理解。"),
@@ -32,6 +41,67 @@ CATEGORIES = (
     Category("中国传统构图名称", "07-chinese-composition", "中国传统构图", "整理中国绘画与传统视觉中的空间经营、散点透视和章法。"),
     Category("演示文稿页面布局名称", "08-presentation", "演示文稿页面", "覆盖封面、目录、内容、比较、数据、流程和全图等幻灯片版式。"),
 )
+
+
+SUBCATEGORIES: dict[str, tuple[Subcategory, ...]] = {
+    "01-composition-logic": (
+        Subcategory(1, 15, "classic-rules", "经典法则与空间留白", "比例、视线、运动空间、负空间与框景。"),
+        Subcategory(16, 30, "balance-lines-axes", "重心、线条与轴线", "居中、对称、方向线、交叉线与轴线组织。"),
+        Subcategory(31, 40, "letter-curves", "字母形与曲线", "X、T、L、V、Z、C、S 形及曲线节奏。"),
+        Subcategory(41, 56, "geometry-radial", "几何形与放射结构", "三角、矩形、圆形、螺旋、向心与离心结构。"),
+        Subcategory(57, 64, "pattern-grouping", "阵列、层叠与组群", "棋盘、阶梯、级联、聚类、分支和网络。"),
+        Subcategory(65, 76, "depth-projection", "空间层次与投影", "前中后景、尺度递减、线性透视和轴测投影。"),
+        Subcategory(77, 86, "viewpoint-focus", "视点、景深与空间感", "俯仰视角、强制透视、景深与平面化。"),
+    ),
+    "02-visual-principles": (
+        Subcategory(87, 94, "balance-focus", "平衡、动势与焦点", "静态或动态、开放或封闭、单一或多重焦点。"),
+        Subcategory(95, 106, "hierarchy-contrast", "层级、比例与对比", "主次、尺度、明暗、色彩、形状、质感和隔离。"),
+        Subcategory(107, 114, "repetition-rhythm", "重复、图案与节奏", "重复、渐变、交替、渐进、流动和随机节奏。"),
+        Subcategory(115, 126, "gestalt-grouping", "格式塔与组群", "相似、邻近、连续、闭合、图底与共同区域。"),
+        Subcategory(127, 131, "reading-patterns", "页面阅读模式", "F 型、Z 型、古腾堡、层蛋糕与斑点扫描。"),
+    ),
+    "03-editorial-advertising": (
+        Subcategory(132, 139, "columns-spreads", "分栏、跨页与出血", "单栏到多栏、对称与非对称跨页、出血控制。"),
+        Subcategory(140, 152, "expressive-layouts", "图文主导与表现型版式", "大标题、图片窗口、拼贴、蒙太奇和实验版式。"),
+        Subcategory(153, 159, "modules-annotations", "模块、侧栏与图文关系", "模块化页面、区块、边注、环绕图和浮动块。"),
+        Subcategory(160, 167, "editorial-pages", "出版功能页面", "封面、扉页、目录、索引、图录与引语页面。"),
+    ),
+    "04-type-grid-cjk": (
+        Subcategory(168, 175, "type-systems", "字体组织系统", "轴线、放射、扩张、随机、网格与双边系统。"),
+        Subcategory(176, 193, "typesetting", "对齐、缩进与文字造型", "对齐方式、绕排、缩进、基线、路径与横竖排。"),
+        Subcategory(194, 211, "grid-systems", "网格系统", "手稿、分栏、模块、层级、响应式与解构网格。"),
+        Subcategory(212, 221, "cjk-writing", "东亚文字与混排", "横排、直排、纵中横、中西文转向、双向与旁注。"),
+    ),
+    "05-web-ui": (
+        Subcategory(222, 242, "css-layout", "CSS 流、定位与响应", "普通流、Flex、Grid、定位、多栏和容器查询。"),
+        Subcategory(243, 254, "layout-primitives", "布局原语", "堆栈、盒子、簇群、侧栏、切换器、封面与悬浮层。"),
+        Subcategory(255, 268, "page-navigation", "页面框架与导航", "多列、分屏、页眉页脚、标签页、抽屉和列表详情。"),
+        Subcategory(269, 290, "product-patterns", "内容与产品模式", "信息流、卡片、仪表盘、表格、表单、画廊与工作区。"),
+        Subcategory(291, 300, "responsive-patterns", "响应式重排模式", "列下落、布局切换、画布外、堆叠和组件级响应。"),
+    ),
+    "06-film-frame": (
+        Subcategory(301, 304, "subject-count", "人物数量与群像", "单人、双人、三人与群像的画面关系。"),
+        Subcategory(305, 309, "viewpoint-coverage", "视角与镜头覆盖", "过肩、主客观视角、净单人和脏单人镜头。"),
+        Subcategory(310, 314, "blocking-depth", "场面调度与景深", "深度、平面、三角、横向和多层前景调度。"),
+    ),
+    "07-chinese-composition": (
+        Subcategory(315, 320, "perspective-roaming", "三远、透视与游观", "高远、深远、平远、散点透视与游观式构图。"),
+        Subcategory(321, 325, "scene-framing", "取景与景式", "全景、一河两岸、边角、截景和折枝。"),
+        Subcategory(326, 334, "blank-rhythm", "留白、虚实与章法", "计白当黑、疏密、主宾、开合、藏露与欹正。"),
+    ),
+    "08-presentation": (
+        Subcategory(335, 343, "core-slides", "基础幻灯片", "标题、章节、内容、比较、空白与图文说明页面。"),
+        Subcategory(344, 350, "story-data-slides", "叙事与数据页面", "大数字、引语、时间线、流程、矩阵、图表和全图。"),
+    ),
+}
+
+
+def subcategory_for(category_slug: str, item_id: str) -> Subcategory:
+    number = int(item_id)
+    matches = [item for item in SUBCATEGORIES[category_slug] if item.start <= number <= item.end]
+    if len(matches) != 1:
+        raise ValueError(f"{item_id} 的二级分类匹配异常：{category_slug}")
+    return matches[0]
 
 
 def sha256(path: Path) -> str:
@@ -71,29 +141,46 @@ def build_gallery_page(repo: Path, category: Category, items: list[dict[str, obj
         "",
         "[← 返回 350 种排版总目录](README.md)",
         "",
+        "**本类主题：** " + " · ".join(
+            f'[{subcategory.title}](#{subcategory.slug})'
+            for subcategory in SUBCATEGORIES[category.slug]
+        ),
+        "",
     ]
-    for offset in range(0, len(items), 4):
-        group = items[offset : offset + 4]
-        cells = []
-        labels = []
-        for item in group:
-            full = Path(str(item["image"]))
-            thumb = Path(str(item["thumbnail"]))
-            cells.append(
-                f'<a href="../../{full.as_posix()}"><img src="../../{thumb.as_posix()}" width="180" alt="{item["id"]} {item["name"]}"></a>'
-            )
-            labels.append(f'**{item["id"]}**<br>{item["name"]}')
-        while len(cells) < 4:
-            cells.append("")
-            labels.append("")
+    for subcategory in SUBCATEGORIES[category.slug]:
+        subgroup = [item for item in items if item["subcategory_slug"] == subcategory.slug]
         lines.extend(
             [
-                "| " + " | ".join(cells) + " |",
-                "| :---: | :---: | :---: | :---: |",
-                "| " + " | ".join(labels) + " |",
+                f'<a id="{subcategory.slug}"></a>',
+                "",
+                f"## {subcategory.title} · {len(subgroup)} 种",
+                "",
+                f"{subcategory.description} `{subcategory.start:03d}–{subcategory.end:03d}`",
                 "",
             ]
         )
+        for offset in range(0, len(subgroup), 4):
+            group = subgroup[offset : offset + 4]
+            cells = []
+            labels = []
+            for item in group:
+                full = Path(str(item["image"]))
+                thumb = Path(str(item["thumbnail"]))
+                cells.append(
+                    f'<a href="../../{full.as_posix()}"><img src="../../{thumb.as_posix()}" width="180" alt="{item["id"]} {item["name"]}"></a>'
+                )
+                labels.append(f'**{item["id"]}**<br>{item["name"]}')
+            while len(cells) < 4:
+                cells.append("")
+                labels.append("")
+            lines.extend(
+                [
+                    "| " + " | ".join(cells) + " |",
+                    "| :---: | :---: | :---: | :---: |",
+                    "| " + " | ".join(labels) + " |",
+                    "",
+                ]
+            )
     page.write_text("\n".join(lines), encoding="utf-8")
 
 
@@ -101,21 +188,44 @@ def build_index(repo: Path, grouped: dict[str, list[dict[str, object]]]) -> None
     lines = [
         "# 350 种排版 · 分类图鉴",
         "",
-        "这是一套从构图基础到具体媒介的排版知识图鉴。350 个版式按 8 个应用与知识板块组织；点击分类浏览全部缩略图，再点击任意缩略图查看高清 PNG。",
+        "这是一套从构图基础到具体媒介的排版知识图鉴。350 个版式按 8 个一级分类、33 个二级主题组织；展开分类查看主题，点击主题直达对应画廊。",
         "",
         "[← 返回项目首页](../../README.md)",
         "",
-        "## 分类目录",
+        "## 一级分类 · 点击切换",
         "",
-        "| 分类 | 数量 | 范围 | 内容 |",
-        "| --- | ---: | --- | --- |",
+        '<p align="center">',
+        '  <a href="README.md"><kbd>总览</kbd></a>',
+        *[
+            f'  <a href="{category.slug}.md"><kbd>{index:02d} {category.title}</kbd></a>'
+            for index, category in enumerate(CATEGORIES, start=1)
+        ],
+        "</p>",
+        "",
+        "> GitHub Markdown 不支持脚本式 Tab；这里使用分类导航配合可折叠面板，在桌面端和移动端都可以直接浏览。",
+        "",
     ]
-    for category in CATEGORIES:
+    for index, category in enumerate(CATEGORIES, start=1):
         items = grouped[category.source_name]
         first, last = items[0]["id"], items[-1]["id"]
-        lines.append(
-            f"| [{category.title}]({category.slug}.md) | {len(items)} | {first}–{last} | {category.description} |"
+        lines.extend(
+            [
+                "<details open>" if index == 1 else "<details>",
+                f"<summary><strong>{index:02d} · {category.title}</strong>　{len(items)} 种 · {first}–{last}</summary>",
+                "",
+                category.description,
+                "",
+                "| 二级主题 | 数量 | 编号 | 内容 |",
+                "| --- | ---: | --- | --- |",
+            ]
         )
+        for subcategory in SUBCATEGORIES[category.slug]:
+            count = subcategory.end - subcategory.start + 1
+            lines.append(
+                f"| [{subcategory.title}]({category.slug}.md#{subcategory.slug}) | {count} | "
+                f"{subcategory.start:03d}–{subcategory.end:03d} | {subcategory.description} |"
+            )
+        lines.extend(["", f"**[打开「{category.title}」完整画廊 →]({category.slug}.md)**", "", "</details>", ""])
     lines.extend(
         [
             "",
@@ -188,6 +298,8 @@ def main() -> None:
             "name": layout_name(row),
             "category": category.title,
             "category_slug": category.slug,
+            "subcategory": subcategory_for(category.slug, row["序号"]).title,
+            "subcategory_slug": subcategory_for(category.slug, row["序号"]).slug,
             "image": image_path.as_posix(),
             "thumbnail": thumb_path.as_posix(),
             "width": width,
@@ -201,8 +313,11 @@ def main() -> None:
         json.dump(catalog, target, ensure_ascii=False, indent=2)
         target.write("\n")
     with (repo / "v2" / "catalog.csv").open("w", encoding="utf-8-sig", newline="") as target:
-        fields = ["id", "name", "category", "category_slug", "image", "thumbnail", "width", "height", "sha256"]
-        writer = csv.DictWriter(target, fieldnames=fields)
+        fields = [
+            "id", "name", "category", "category_slug", "subcategory", "subcategory_slug",
+            "image", "thumbnail", "width", "height", "sha256",
+        ]
+        writer = csv.DictWriter(target, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         writer.writerows(catalog)
 

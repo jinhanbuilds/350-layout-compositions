@@ -1,19 +1,28 @@
 # 350 种排版 · 分类图鉴
 
-从经典构图、视觉原则，到出版广告、字体网格、网页 UI、影视、中国传统构图和演示文稿：一套可浏览、可检索、可下载的 350 种排版知识图鉴。
+从经典构图、视觉原则，到出版广告、字体网格、网页 UI、影视、中国传统构图和演示文稿：350 种排版，按 8 个一级分类与 33 个二级主题组织成可浏览、可检索、可下载的知识图鉴。
 
 > 这是原「100 种排版」项目的新版扩展。旧版 100 张高清图、缩略图和下方画廊均原样保留，原有链接继续可用。
 
 ## 浏览新版
 
-**[打开 350 种排版完整分类图鉴 →](docs/350/README.md)**
+**[打开 350 种排版完整分类图鉴 →](docs/350/README.md)**　·　[下载全部图片](https://github.com/nevertoday/100-layout-compositions/releases/latest/download/350-layout-compositions-images.zip)　·　[搜索数据目录](v2/catalog.csv)
 
-| 分类 | 数量 | 编号 | 分类 | 数量 | 编号 |
-| --- | ---: | --- | --- | ---: | --- |
-| [构图逻辑](docs/350/01-composition-logic.md) | 86 | 001–086 | [视觉原则与阅读模式](docs/350/02-visual-principles.md) | 45 | 087–131 |
-| [平面、出版与广告](docs/350/03-editorial-advertising.md) | 36 | 132–167 | [字体、网格与东亚文字](docs/350/04-type-grid-cjk.md) | 54 | 168–221 |
-| [网页与 UI](docs/350/05-web-ui.md) | 79 | 222–300 | [影视画面构图](docs/350/06-film-frame.md) | 14 | 301–314 |
-| [中国传统构图](docs/350/07-chinese-composition.md) | 20 | 315–334 | [演示文稿页面](docs/350/08-presentation.md) | 16 | 335–350 |
+### 一级分类 · 像 Tab 一样切换
+
+<p align="center">
+  <a href="docs/350/01-composition-logic.md"><kbd>01 构图逻辑 · 86</kbd></a>
+  <a href="docs/350/02-visual-principles.md"><kbd>02 视觉原则 · 45</kbd></a>
+  <a href="docs/350/03-editorial-advertising.md"><kbd>03 出版广告 · 36</kbd></a>
+  <a href="docs/350/04-type-grid-cjk.md"><kbd>04 字体网格 · 54</kbd></a>
+</p>
+
+<p align="center">
+  <a href="docs/350/05-web-ui.md"><kbd>05 网页 UI · 79</kbd></a>
+  <a href="docs/350/06-film-frame.md"><kbd>06 影视画面 · 14</kbd></a>
+  <a href="docs/350/07-chinese-composition.md"><kbd>07 中国传统 · 20</kbd></a>
+  <a href="docs/350/08-presentation.md"><kbd>08 演示文稿 · 16</kbd></a>
+</p>
 
 <p align="center">
   <a href="docs/350/01-composition-logic.md"><img src="v2/thumbnails/01-composition-logic/001-三分法构图.jpg" width="180" alt="001 三分法构图"></a>
@@ -29,11 +38,69 @@
   <a href="docs/350/08-presentation.md"><img src="v2/thumbnails/08-presentation/335-标题幻灯片幻灯片版式.jpg" width="180" alt="335 标题幻灯片版式"></a>
 </p>
 
+### 二级分类 · 展开即看
+
+<details open>
+<summary><strong>01 · 构图逻辑</strong>　86 种 · 7 个主题</summary>
+
+[经典法则与空间留白](docs/350/01-composition-logic.md#classic-rules) · [重心、线条与轴线](docs/350/01-composition-logic.md#balance-lines-axes) · [字母形与曲线](docs/350/01-composition-logic.md#letter-curves) · [几何形与放射结构](docs/350/01-composition-logic.md#geometry-radial) · [阵列、层叠与组群](docs/350/01-composition-logic.md#pattern-grouping) · [空间层次与投影](docs/350/01-composition-logic.md#depth-projection) · [视点、景深与空间感](docs/350/01-composition-logic.md#viewpoint-focus)
+
+</details>
+
+<details>
+<summary><strong>02 · 视觉原则与阅读模式</strong>　45 种 · 5 个主题</summary>
+
+[平衡、动势与焦点](docs/350/02-visual-principles.md#balance-focus) · [层级、比例与对比](docs/350/02-visual-principles.md#hierarchy-contrast) · [重复、图案与节奏](docs/350/02-visual-principles.md#repetition-rhythm) · [格式塔与组群](docs/350/02-visual-principles.md#gestalt-grouping) · [页面阅读模式](docs/350/02-visual-principles.md#reading-patterns)
+
+</details>
+
+<details>
+<summary><strong>03 · 平面、出版与广告</strong>　36 种 · 4 个主题</summary>
+
+[分栏、跨页与出血](docs/350/03-editorial-advertising.md#columns-spreads) · [图文主导与表现型版式](docs/350/03-editorial-advertising.md#expressive-layouts) · [模块、侧栏与图文关系](docs/350/03-editorial-advertising.md#modules-annotations) · [出版功能页面](docs/350/03-editorial-advertising.md#editorial-pages)
+
+</details>
+
+<details>
+<summary><strong>04 · 字体、网格与东亚文字</strong>　54 种 · 4 个主题</summary>
+
+[字体组织系统](docs/350/04-type-grid-cjk.md#type-systems) · [对齐、缩进与文字造型](docs/350/04-type-grid-cjk.md#typesetting) · [网格系统](docs/350/04-type-grid-cjk.md#grid-systems) · [东亚文字与混排](docs/350/04-type-grid-cjk.md#cjk-writing)
+
+</details>
+
+<details>
+<summary><strong>05 · 网页与 UI</strong>　79 种 · 5 个主题</summary>
+
+[CSS 流、定位与响应](docs/350/05-web-ui.md#css-layout) · [布局原语](docs/350/05-web-ui.md#layout-primitives) · [页面框架与导航](docs/350/05-web-ui.md#page-navigation) · [内容与产品模式](docs/350/05-web-ui.md#product-patterns) · [响应式重排模式](docs/350/05-web-ui.md#responsive-patterns)
+
+</details>
+
+<details>
+<summary><strong>06 · 影视画面构图</strong>　14 种 · 3 个主题</summary>
+
+[人物数量与群像](docs/350/06-film-frame.md#subject-count) · [视角与镜头覆盖](docs/350/06-film-frame.md#viewpoint-coverage) · [场面调度与景深](docs/350/06-film-frame.md#blocking-depth)
+
+</details>
+
+<details>
+<summary><strong>07 · 中国传统构图</strong>　20 种 · 3 个主题</summary>
+
+[三远、透视与游观](docs/350/07-chinese-composition.md#perspective-roaming) · [取景与景式](docs/350/07-chinese-composition.md#scene-framing) · [留白、虚实与章法](docs/350/07-chinese-composition.md#blank-rhythm)
+
+</details>
+
+<details>
+<summary><strong>08 · 演示文稿页面</strong>　16 种 · 2 个主题</summary>
+
+[基础幻灯片](docs/350/08-presentation.md#core-slides) · [叙事与数据页面](docs/350/08-presentation.md#story-data-slides)
+
+</details>
+
 ## 下载与数据
 
 - 单张高清图：在分类页面点击任意缩略图，即可打开 1086 × 1448 PNG。
 - 全部高清图：[下载新版 350 张高清图片 ZIP](https://github.com/nevertoday/100-layout-compositions/releases/latest/download/350-layout-compositions-images.zip)，或浏览 [`v2/images/`](v2/images/)。
-- 数据目录：[`catalog.csv`](v2/catalog.csv) / [`catalog.json`](v2/catalog.json)，包含编号、名称、分类、路径、尺寸与 SHA-256。
+- 数据目录：[`catalog.csv`](v2/catalog.csv) / [`catalog.json`](v2/catalog.json)，包含编号、名称、一级/二级分类、路径、尺寸与 SHA-256。
 - 经典版 ZIP：[下载旧版 100 张高清图片](https://github.com/nevertoday/100-layout-compositions/releases/latest/download/100-layout-compositions-images.zip)。
 
 ## 项目结构
