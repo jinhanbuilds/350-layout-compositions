@@ -117,11 +117,22 @@ def verify_default_gallery() -> None:
         fail("README 未默认完整展示构图逻辑 001–086")
 
 
+def verify_gallery_cells() -> None:
+    pages = [REPO / "README.md"]
+    pages.extend(sorted((REPO / "docs" / "350").glob("[0-9][0-9]-*.md")))
+    for page in pages:
+        for line_number, line in enumerate(page.read_text(encoding="utf-8").splitlines(), start=1):
+            if line.startswith("| <") and ("v2/thumbnails/" in line or "layout-placeholder.svg" in line):
+                if line.count("<img ") != 4:
+                    fail(f"画廊行未撑满 4 个单元格：{page.relative_to(REPO)}:{line_number}")
+
+
 def main() -> None:
     verify_classic()
     catalog = verify_v2()
     verify_markdown_links()
     verify_default_gallery()
+    verify_gallery_cells()
     category_counts: dict[str, int] = {}
     for item in catalog:
         category = str(item["category"])

@@ -42,9 +42,9 @@
 | :---: | :---: | :---: | :---: |
 | **188**<br>基线对齐 | **189**<br>形状文字 | **190**<br>图形诗排版 | **191**<br>路径文字 |
 
-| <a href="../../v2/images/04-type-grid-cjk/192-垂直文字排版.png"><img src="../../v2/thumbnails/04-type-grid-cjk/192-垂直文字排版.jpg" width="180" alt="192 垂直文字排版"></a> | <a href="../../v2/images/04-type-grid-cjk/193-水平文字排版.png"><img src="../../v2/thumbnails/04-type-grid-cjk/193-水平文字排版.jpg" width="180" alt="193 水平文字排版"></a> |  |  |
+| <a href="../../v2/images/04-type-grid-cjk/192-垂直文字排版.png"><img src="../../v2/thumbnails/04-type-grid-cjk/192-垂直文字排版.jpg" width="180" alt="192 垂直文字排版"></a> | <a href="../../v2/images/04-type-grid-cjk/193-水平文字排版.png"><img src="../../v2/thumbnails/04-type-grid-cjk/193-水平文字排版.jpg" width="180" alt="193 水平文字排版"></a> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> |
 | :---: | :---: | :---: | :---: |
-| **192**<br>垂直文字排版 | **193**<br>水平文字排版 |  |  |
+| **192**<br>垂直文字排版 | **193**<br>水平文字排版 | &nbsp; | &nbsp; |
 
 <a id="grid-systems"></a>
 
@@ -68,9 +68,9 @@
 | :---: | :---: | :---: | :---: |
 | **206**<br>子网格 | **207**<br>固定网格 | **208**<br>流体网格 | **209**<br>响应式网格 |
 
-| <a href="../../v2/images/04-type-grid-cjk/210-破格网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/210-破格网格.jpg" width="180" alt="210 破格网格"></a> | <a href="../../v2/images/04-type-grid-cjk/211-解构网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/211-解构网格.jpg" width="180" alt="211 解构网格"></a> |  |  |
+| <a href="../../v2/images/04-type-grid-cjk/210-破格网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/210-破格网格.jpg" width="180" alt="210 破格网格"></a> | <a href="../../v2/images/04-type-grid-cjk/211-解构网格.png"><img src="../../v2/thumbnails/04-type-grid-cjk/211-解构网格.jpg" width="180" alt="211 解构网格"></a> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> |
 | :---: | :---: | :---: | :---: |
-| **210**<br>破格网格 | **211**<br>解构网格 |  |  |
+| **210**<br>破格网格 | **211**<br>解构网格 | &nbsp; | &nbsp; |
 
 <a id="cjk-writing"></a>
 
@@ -86,6 +86,6 @@
 | :---: | :---: | :---: | :---: |
 | **216**<br>横直混排 | **217**<br>纵中横排 | **218**<br>直排中西文转向 | **219**<br>直排中西文直立 |
 
-| <a href="../../v2/images/04-type-grid-cjk/220-双向文字排版.png"><img src="../../v2/thumbnails/04-type-grid-cjk/220-双向文字排版.jpg" width="180" alt="220 双向文字排版"></a> | <a href="../../v2/images/04-type-grid-cjk/221-旁注（Ruby）排版.png"><img src="../../v2/thumbnails/04-type-grid-cjk/221-旁注（Ruby）排版.jpg" width="180" alt="221 旁注（Ruby）排版"></a> |  |  |
+| <a href="../../v2/images/04-type-grid-cjk/220-双向文字排版.png"><img src="../../v2/thumbnails/04-type-grid-cjk/220-双向文字排版.jpg" width="180" alt="220 双向文字排版"></a> | <a href="../../v2/images/04-type-grid-cjk/221-旁注（Ruby）排版.png"><img src="../../v2/thumbnails/04-type-grid-cjk/221-旁注（Ruby）排版.jpg" width="180" alt="221 旁注（Ruby）排版"></a> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> |
 | :---: | :---: | :---: | :---: |
-| **220**<br>双向文字排版 | **221**<br>旁注（Ruby）排版 |  |  |
+| **220**<br>双向文字排版 | **221**<br>旁注（Ruby）排版 | &nbsp; | &nbsp; |

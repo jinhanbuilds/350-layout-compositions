@@ -38,9 +38,9 @@
 | :---: | :---: | :---: | :---: |
 | **148**<br>剪影版式 | **149**<br>字母造型版式 | **150**<br>图文谜语版式 | **151**<br>拼贴版式 |
 
-| <a href="../../v2/images/03-editorial-advertising/152-蒙太奇版式.png"><img src="../../v2/thumbnails/03-editorial-advertising/152-蒙太奇版式.jpg" width="180" alt="152 蒙太奇版式"></a> |  |  |  |
+| <a href="../../v2/images/03-editorial-advertising/152-蒙太奇版式.png"><img src="../../v2/thumbnails/03-editorial-advertising/152-蒙太奇版式.jpg" width="180" alt="152 蒙太奇版式"></a> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> |
 | :---: | :---: | :---: | :---: |
-| **152**<br>蒙太奇版式 |  |  |  |
+| **152**<br>蒙太奇版式 | &nbsp; | &nbsp; | &nbsp; |
 
 <a id="modules-annotations"></a>
 
@@ -52,9 +52,9 @@
 | :---: | :---: | :---: | :---: |
 | **153**<br>模块化页面 | **154**<br>区块式版式 | **155**<br>插页式版式 | **156**<br>侧栏版式 |
 
-| <a href="../../v2/images/03-editorial-advertising/157-边注版式.png"><img src="../../v2/thumbnails/03-editorial-advertising/157-边注版式.jpg" width="180" alt="157 边注版式"></a> | <a href="../../v2/images/03-editorial-advertising/158-环绕图版式.png"><img src="../../v2/thumbnails/03-editorial-advertising/158-环绕图版式.jpg" width="180" alt="158 环绕图版式"></a> | <a href="../../v2/images/03-editorial-advertising/159-浮动块版式.png"><img src="../../v2/thumbnails/03-editorial-advertising/159-浮动块版式.jpg" width="180" alt="159 浮动块版式"></a> |  |
+| <a href="../../v2/images/03-editorial-advertising/157-边注版式.png"><img src="../../v2/thumbnails/03-editorial-advertising/157-边注版式.jpg" width="180" alt="157 边注版式"></a> | <a href="../../v2/images/03-editorial-advertising/158-环绕图版式.png"><img src="../../v2/thumbnails/03-editorial-advertising/158-环绕图版式.jpg" width="180" alt="158 环绕图版式"></a> | <a href="../../v2/images/03-editorial-advertising/159-浮动块版式.png"><img src="../../v2/thumbnails/03-editorial-advertising/159-浮动块版式.jpg" width="180" alt="159 浮动块版式"></a> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> |
 | :---: | :---: | :---: | :---: |
-| **157**<br>边注版式 | **158**<br>环绕图版式 | **159**<br>浮动块版式 |  |
+| **157**<br>边注版式 | **158**<br>环绕图版式 | **159**<br>浮动块版式 | &nbsp; |
 
 <a id="editorial-pages"></a>
 

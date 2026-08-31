@@ -16,9 +16,9 @@
 | :---: | :---: | :---: | :---: |
 | **315**<br>高远法 | **316**<br>深远法 | **317**<br>平远法 | **318**<br>三远综合构图 |
 
-| <a href="../../v2/images/07-chinese-composition/319-散点透视.png"><img src="../../v2/thumbnails/07-chinese-composition/319-散点透视.jpg" width="180" alt="319 散点透视"></a> | <a href="../../v2/images/07-chinese-composition/320-游观式构图.png"><img src="../../v2/thumbnails/07-chinese-composition/320-游观式构图.jpg" width="180" alt="320 游观式构图"></a> |  |  |
+| <a href="../../v2/images/07-chinese-composition/319-散点透视.png"><img src="../../v2/thumbnails/07-chinese-composition/319-散点透视.jpg" width="180" alt="319 散点透视"></a> | <a href="../../v2/images/07-chinese-composition/320-游观式构图.png"><img src="../../v2/thumbnails/07-chinese-composition/320-游观式构图.jpg" width="180" alt="320 游观式构图"></a> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> |
 | :---: | :---: | :---: | :---: |
-| **319**<br>散点透视 | **320**<br>游观式构图 |  |  |
+| **319**<br>散点透视 | **320**<br>游观式构图 | &nbsp; | &nbsp; |
 
 <a id="scene-framing"></a>
 
@@ -30,9 +30,9 @@
 | :---: | :---: | :---: | :---: |
 | **321**<br>全景式构图 | **322**<br>一河两岸式 | **323**<br>边角式构图 | **324**<br>截景式构图 |
 
-| <a href="../../v2/images/07-chinese-composition/325-折枝式构图.png"><img src="../../v2/thumbnails/07-chinese-composition/325-折枝式构图.jpg" width="180" alt="325 折枝式构图"></a> |  |  |  |
+| <a href="../../v2/images/07-chinese-composition/325-折枝式构图.png"><img src="../../v2/thumbnails/07-chinese-composition/325-折枝式构图.jpg" width="180" alt="325 折枝式构图"></a> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> |
 | :---: | :---: | :---: | :---: |
-| **325**<br>折枝式构图 |  |  |  |
+| **325**<br>折枝式构图 | &nbsp; | &nbsp; | &nbsp; |
 
 <a id="blank-rhythm"></a>
 
@@ -48,6 +48,6 @@
 | :---: | :---: | :---: | :---: |
 | **330**<br>主宾关系构图 | **331**<br>开合构图 | **332**<br>起承转合构图 | **333**<br>藏露关系构图 |
 
-| <a href="../../v2/images/07-chinese-composition/334-欹正关系构图.png"><img src="../../v2/thumbnails/07-chinese-composition/334-欹正关系构图.jpg" width="180" alt="334 欹正关系构图"></a> |  |  |  |
+| <a href="../../v2/images/07-chinese-composition/334-欹正关系构图.png"><img src="../../v2/thumbnails/07-chinese-composition/334-欹正关系构图.jpg" width="180" alt="334 欹正关系构图"></a> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> |
 | :---: | :---: | :---: | :---: |
-| **334**<br>欹正关系构图 |  |  |  |
+| **334**<br>欹正关系构图 | &nbsp; | &nbsp; | &nbsp; |

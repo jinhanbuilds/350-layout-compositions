@@ -80,6 +80,6 @@ F 型、Z 型、古腾堡、层蛋糕与斑点扫描。 `127–131`
 | :---: | :---: | :---: | :---: |
 | **127**<br>F 型扫描模式 | **128**<br>Z 型扫描模式 | **129**<br>古腾堡图式 | **130**<br>层蛋糕扫描模式 |
 
-| <a href="../../v2/images/02-visual-principles/131-斑点扫描模式.png"><img src="../../v2/thumbnails/02-visual-principles/131-斑点扫描模式.jpg" width="180" alt="131 斑点扫描模式"></a> |  |  |  |
+| <a href="../../v2/images/02-visual-principles/131-斑点扫描模式.png"><img src="../../v2/thumbnails/02-visual-principles/131-斑点扫描模式.jpg" width="180" alt="131 斑点扫描模式"></a> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> |
 | :---: | :---: | :---: | :---: |
-| **131**<br>斑点扫描模式 |  |  |  |
+| **131**<br>斑点扫描模式 | &nbsp; | &nbsp; | &nbsp; |

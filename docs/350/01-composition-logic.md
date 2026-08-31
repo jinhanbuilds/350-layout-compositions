@@ -24,9 +24,9 @@
 | :---: | :---: | :---: | :---: |
 | **009**<br>视线空间构图 | **010**<br>运动空间构图 | **011**<br>头部空间构图 | **012**<br>填满画面构图 |
 
-| <a href="../../v2/images/01-composition-logic/013-负空间构图.png"><img src="../../v2/thumbnails/01-composition-logic/013-负空间构图.jpg" width="180" alt="013 负空间构图"></a> | <a href="../../v2/images/01-composition-logic/014-框中框构图.png"><img src="../../v2/thumbnails/01-composition-logic/014-框中框构图.jpg" width="180" alt="014 框中框构图"></a> | <a href="../../v2/images/01-composition-logic/015-引导线构图.png"><img src="../../v2/thumbnails/01-composition-logic/015-引导线构图.jpg" width="180" alt="015 引导线构图"></a> |  |
+| <a href="../../v2/images/01-composition-logic/013-负空间构图.png"><img src="../../v2/thumbnails/01-composition-logic/013-负空间构图.jpg" width="180" alt="013 负空间构图"></a> | <a href="../../v2/images/01-composition-logic/014-框中框构图.png"><img src="../../v2/thumbnails/01-composition-logic/014-框中框构图.jpg" width="180" alt="014 框中框构图"></a> | <a href="../../v2/images/01-composition-logic/015-引导线构图.png"><img src="../../v2/thumbnails/01-composition-logic/015-引导线构图.jpg" width="180" alt="015 引导线构图"></a> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> |
 | :---: | :---: | :---: | :---: |
-| **013**<br>负空间构图 | **014**<br>框中框构图 | **015**<br>引导线构图 |  |
+| **013**<br>负空间构图 | **014**<br>框中框构图 | **015**<br>引导线构图 | &nbsp; |
 
 <a id="balance-lines-axes"></a>
 
@@ -46,9 +46,9 @@
 | :---: | :---: | :---: | :---: |
 | **024**<br>平行线构图 | **025**<br>汇聚线构图 | **026**<br>交叉线构图 | **027**<br>中轴构图 |
 
-| <a href="../../v2/images/01-composition-logic/028-偏轴构图.png"><img src="../../v2/thumbnails/01-composition-logic/028-偏轴构图.jpg" width="180" alt="028 偏轴构图"></a> | <a href="../../v2/images/01-composition-logic/029-双轴构图.png"><img src="../../v2/thumbnails/01-composition-logic/029-双轴构图.jpg" width="180" alt="029 双轴构图"></a> | <a href="../../v2/images/01-composition-logic/030-十字构图.png"><img src="../../v2/thumbnails/01-composition-logic/030-十字构图.jpg" width="180" alt="030 十字构图"></a> |  |
+| <a href="../../v2/images/01-composition-logic/028-偏轴构图.png"><img src="../../v2/thumbnails/01-composition-logic/028-偏轴构图.jpg" width="180" alt="028 偏轴构图"></a> | <a href="../../v2/images/01-composition-logic/029-双轴构图.png"><img src="../../v2/thumbnails/01-composition-logic/029-双轴构图.jpg" width="180" alt="029 双轴构图"></a> | <a href="../../v2/images/01-composition-logic/030-十字构图.png"><img src="../../v2/thumbnails/01-composition-logic/030-十字构图.jpg" width="180" alt="030 十字构图"></a> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> |
 | :---: | :---: | :---: | :---: |
-| **028**<br>偏轴构图 | **029**<br>双轴构图 | **030**<br>十字构图 |  |
+| **028**<br>偏轴构图 | **029**<br>双轴构图 | **030**<br>十字构图 | &nbsp; |
 
 <a id="letter-curves"></a>
 
@@ -64,9 +64,9 @@ X、T、L、V、Z、C、S 形及曲线节奏。 `031–040`
 | :---: | :---: | :---: | :---: |
 | **035**<br>Z 形构图 | **036**<br>C 形构图 | **037**<br>S 形构图 | **038**<br>曲线构图 |
 
-| <a href="../../v2/images/01-composition-logic/039-波浪形构图.png"><img src="../../v2/thumbnails/01-composition-logic/039-波浪形构图.jpg" width="180" alt="039 波浪形构图"></a> | <a href="../../v2/images/01-composition-logic/040-锯齿形构图.png"><img src="../../v2/thumbnails/01-composition-logic/040-锯齿形构图.jpg" width="180" alt="040 锯齿形构图"></a> |  |  |
+| <a href="../../v2/images/01-composition-logic/039-波浪形构图.png"><img src="../../v2/thumbnails/01-composition-logic/039-波浪形构图.jpg" width="180" alt="039 波浪形构图"></a> | <a href="../../v2/images/01-composition-logic/040-锯齿形构图.png"><img src="../../v2/thumbnails/01-composition-logic/040-锯齿形构图.jpg" width="180" alt="040 锯齿形构图"></a> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> |
 | :---: | :---: | :---: | :---: |
-| **039**<br>波浪形构图 | **040**<br>锯齿形构图 |  |  |
+| **039**<br>波浪形构图 | **040**<br>锯齿形构图 | &nbsp; | &nbsp; |
 
 <a id="geometry-radial"></a>
 
@@ -136,6 +136,6 @@ X、T、L、V、Z、C、S 形及曲线节奏。 `031–040`
 | :---: | :---: | :---: | :---: |
 | **081**<br>强制透视构图 | **082**<br>空气透视构图 | **083**<br>浅景深构图 | **084**<br>深焦构图 |
 
-| <a href="../../v2/images/01-composition-logic/085-平面化构图.png"><img src="../../v2/thumbnails/01-composition-logic/085-平面化构图.jpg" width="180" alt="085 平面化构图"></a> | <a href="../../v2/images/01-composition-logic/086-深空间构图.png"><img src="../../v2/thumbnails/01-composition-logic/086-深空间构图.jpg" width="180" alt="086 深空间构图"></a> |  |  |
+| <a href="../../v2/images/01-composition-logic/085-平面化构图.png"><img src="../../v2/thumbnails/01-composition-logic/085-平面化构图.jpg" width="180" alt="085 平面化构图"></a> | <a href="../../v2/images/01-composition-logic/086-深空间构图.png"><img src="../../v2/thumbnails/01-composition-logic/086-深空间构图.jpg" width="180" alt="086 深空间构图"></a> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> |
 | :---: | :---: | :---: | :---: |
-| **085**<br>平面化构图 | **086**<br>深空间构图 |  |  |
+| **085**<br>平面化构图 | **086**<br>深空间构图 | &nbsp; | &nbsp; |

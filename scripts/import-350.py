@@ -146,8 +146,10 @@ def gallery_tables(items: list[dict[str, object]], path_prefix: str = "") -> lis
             )
             labels.append(f'**{item["id"]}**<br>{item["name"]}')
         while len(cells) < 4:
-            cells.append("")
-            labels.append("")
+            cells.append(
+                f'<img src="{path_prefix}docs/images/layout-placeholder.svg" width="180" alt="空白占位">'
+            )
+            labels.append("&nbsp;")
         lines.extend(
             [
                 "| " + " | ".join(cells) + " |",

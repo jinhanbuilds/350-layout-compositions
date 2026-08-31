@@ -26,9 +26,9 @@
 | :---: | :---: | :---: | :---: |
 | **305**<br>过肩构图 | **306**<br>主观视角构图 | **307**<br>客观视角构图 | **308**<br>净单人镜头 |
 
-| <a href="../../v2/images/06-film-frame/309-脏单人镜头.png"><img src="../../v2/thumbnails/06-film-frame/309-脏单人镜头.jpg" width="180" alt="309 脏单人镜头"></a> |  |  |  |
+| <a href="../../v2/images/06-film-frame/309-脏单人镜头.png"><img src="../../v2/thumbnails/06-film-frame/309-脏单人镜头.jpg" width="180" alt="309 脏单人镜头"></a> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> |
 | :---: | :---: | :---: | :---: |
-| **309**<br>脏单人镜头 |  |  |  |
+| **309**<br>脏单人镜头 | &nbsp; | &nbsp; | &nbsp; |
 
 <a id="blocking-depth"></a>
 
@@ -40,6 +40,6 @@
 | :---: | :---: | :---: | :---: |
 | **310**<br>深度调度 | **311**<br>平面调度 | **312**<br>三角调度 | **313**<br>横向调度 |
 
-| <a href="../../v2/images/06-film-frame/314-多层前景调度.png"><img src="../../v2/thumbnails/06-film-frame/314-多层前景调度.jpg" width="180" alt="314 多层前景调度"></a> |  |  |  |
+| <a href="../../v2/images/06-film-frame/314-多层前景调度.png"><img src="../../v2/thumbnails/06-film-frame/314-多层前景调度.jpg" width="180" alt="314 多层前景调度"></a> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> | <img src="../../docs/images/layout-placeholder.svg" width="180" alt="空白占位"> |
 | :---: | :---: | :---: | :---: |
-| **314**<br>多层前景调度 |  |  |  |
+| **314**<br>多层前景调度 | &nbsp; | &nbsp; | &nbsp; |
