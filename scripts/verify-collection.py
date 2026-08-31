@@ -104,16 +104,30 @@ def verify_markdown_links() -> None:
                     fail(f"页面锚点不存在：{page.relative_to(REPO)} -> {link}")
 
 
+def verify_default_gallery() -> None:
+    text = (REPO / "README.md").read_text(encoding="utf-8")
+    start_marker = "<!-- default-gallery:start -->"
+    end_marker = "<!-- default-gallery:end -->"
+    if text.count(start_marker) != 1 or text.count(end_marker) != 1:
+        fail("README 默认画廊标记异常")
+    gallery = text.split(start_marker, 1)[1].split(end_marker, 1)[0]
+    expected = [f'v2/thumbnails/01-composition-logic/{number:03d}-' for number in range(1, 87)]
+    missing = [prefix for prefix in expected if gallery.count(prefix) != 1]
+    if missing or gallery.count('v2/thumbnails/01-composition-logic/') != 86:
+        fail("README 未默认完整展示构图逻辑 001–086")
+
+
 def main() -> None:
     verify_classic()
     catalog = verify_v2()
     verify_markdown_links()
+    verify_default_gallery()
     category_counts: dict[str, int] = {}
     for item in catalog:
         category = str(item["category"])
         category_counts[category] = category_counts.get(category, 0) + 1
     summary = "，".join(f"{name} {count}" for name, count in category_counts.items())
-    print(f"验证通过：经典版 100 张；新版 350 张 / 8 个一级分类 / 33 个二级分类（{summary}）；本地链接完整。")
+    print(f"验证通过：README 默认展示构图逻辑 86 张；经典版 100 张；新版 350 张 / 8 个一级分类 / 33 个二级分类（{summary}）；本地链接完整。")
 
 
 if __name__ == "__main__":

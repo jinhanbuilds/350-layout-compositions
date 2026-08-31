@@ -132,6 +132,33 @@ def layout_name(row: dict[str, str]) -> str:
     return Path(image_name(row)).stem.split("-", 1)[1]
 
 
+def gallery_tables(items: list[dict[str, object]], path_prefix: str = "") -> list[str]:
+    lines: list[str] = []
+    for offset in range(0, len(items), 4):
+        group = items[offset : offset + 4]
+        cells = []
+        labels = []
+        for item in group:
+            full = Path(str(item["image"]))
+            thumb = Path(str(item["thumbnail"]))
+            cells.append(
+                f'<a href="{path_prefix}{full.as_posix()}"><img src="{path_prefix}{thumb.as_posix()}" width="180" alt="{item["id"]} {item["name"]}"></a>'
+            )
+            labels.append(f'**{item["id"]}**<br>{item["name"]}')
+        while len(cells) < 4:
+            cells.append("")
+            labels.append("")
+        lines.extend(
+            [
+                "| " + " | ".join(cells) + " |",
+                "| :---: | :---: | :---: | :---: |",
+                "| " + " | ".join(labels) + " |",
+                "",
+            ]
+        )
+    return lines
+
+
 def build_gallery_page(repo: Path, category: Category, items: list[dict[str, object]]) -> None:
     page = repo / "docs" / "350" / f"{category.slug}.md"
     lines = [
@@ -159,29 +186,48 @@ def build_gallery_page(repo: Path, category: Category, items: list[dict[str, obj
                 "",
             ]
         )
-        for offset in range(0, len(subgroup), 4):
-            group = subgroup[offset : offset + 4]
-            cells = []
-            labels = []
-            for item in group:
-                full = Path(str(item["image"]))
-                thumb = Path(str(item["thumbnail"]))
-                cells.append(
-                    f'<a href="../../{full.as_posix()}"><img src="../../{thumb.as_posix()}" width="180" alt="{item["id"]} {item["name"]}"></a>'
-                )
-                labels.append(f'**{item["id"]}**<br>{item["name"]}')
-            while len(cells) < 4:
-                cells.append("")
-                labels.append("")
-            lines.extend(
-                [
-                    "| " + " | ".join(cells) + " |",
-                    "| :---: | :---: | :---: | :---: |",
-                    "| " + " | ".join(labels) + " |",
-                    "",
-                ]
-            )
+        lines.extend(gallery_tables(subgroup, "../../"))
     page.write_text("\n".join(lines), encoding="utf-8")
+
+
+def build_readme_default_gallery(repo: Path, items: list[dict[str, object]]) -> None:
+    readme = repo / "README.md"
+    text = readme.read_text(encoding="utf-8")
+    start_marker = "<!-- default-gallery:start -->"
+    end_marker = "<!-- default-gallery:end -->"
+    if start_marker not in text or end_marker not in text:
+        raise ValueError("README 缺少默认画廊标记")
+
+    lines = [
+        start_marker,
+        "## 默认展示 · 构图逻辑 86 种",
+        "",
+        "进入项目即可浏览全部 86 种构图逻辑；点击缩略图打开 1086 × 1448 高清 PNG。",
+        "",
+        "**快速定位：** " + " · ".join(
+            f'[{subcategory.title}](#default-{subcategory.slug})'
+            for subcategory in SUBCATEGORIES["01-composition-logic"]
+        ),
+        "",
+    ]
+    for subcategory in SUBCATEGORIES["01-composition-logic"]:
+        subgroup = [item for item in items if item["subcategory_slug"] == subcategory.slug]
+        lines.extend(
+            [
+                f'<a id="default-{subcategory.slug}"></a>',
+                "",
+                f"### {subcategory.title} · {len(subgroup)} 种",
+                "",
+                f"{subcategory.description} `{subcategory.start:03d}–{subcategory.end:03d}`",
+                "",
+            ]
+        )
+        lines.extend(gallery_tables(subgroup))
+    lines.extend([end_marker, ""])
+
+    prefix, remainder = text.split(start_marker, 1)
+    _, suffix = remainder.split(end_marker, 1)
+    readme.write_text(prefix + "\n".join(lines) + suffix.lstrip("\n"), encoding="utf-8")
 
 
 def build_index(repo: Path, grouped: dict[str, list[dict[str, object]]]) -> None:
@@ -324,6 +370,7 @@ def main() -> None:
     for category in CATEGORIES:
         build_gallery_page(repo, category, grouped[category.source_name])
     build_index(repo, grouped)
+    build_readme_default_gallery(repo, grouped[CATEGORIES[0].source_name])
     print(f"已导入 {len(catalog)} 张图片，生成 {len(CATEGORIES)} 个分类页面。")
 
 
