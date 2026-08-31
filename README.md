@@ -425,11 +425,30 @@ dist/             本地生成的发布压缩包，不提交到 Git
 - 如果你要二次发布、改编或商用，请先确认图片生成来源、人物/品牌/素材权利是否覆盖对应用途。
 - 如果你基于这些图片做了新的排版实验，欢迎在 Issue 或 Discussion 里交流。
 
-## 支持作者
+## 广告信息｜XXD 付费服务与会员
 
-这个图片合集会继续保持免费开源。如果它帮你节省了整理和参考排版构图的时间，也愿意支持后续维护，可以扫描下面的 Buy Me a Coffee 二维码请作者喝杯咖啡。完全自愿；反馈、Star 和 issue 同样有帮助。
+> **广告与商业信息声明：** 以下二维码、会员与付费服务链接属于小小东的广告信息。是否扫码或购买完全自愿，不影响本开源项目的访问与使用。
 
-<img src="docs/images/buy-me-a-coffee-qr.png" alt="Buy Me a Coffee 支持二维码" width="220">
+### 小小东总控 · 将军总指挥 Skill · 100 元
+
+一次支付 100 元获得将军总指挥 Skill（`xxd-panel-all`），用于主控、推荐、点将和批量调度全部士兵 Skills。扫码后请备注“将军总指挥 Skill”。
+
+**购买后可使用：主控全队的将军 Skill**
+
+| 层级 | Skill | 负责什么 |
+| --- | --- | --- |
+| **将军级** | [`xxd-panel-all`](https://github.com/nevertoday/xxd-panel-all) | 识别当前可用的编号 Skills；按图片、主题和用途推荐；按编号点将；组织同图多风格试稿；为图片文件夹批量分配并逐项派发。 |
+| **士兵级** | `xxd-panel-NNN`（当前 001–100） | 每个编号只执行自己独立的原始提示词与审美，把将军派发的单个任务完成为成品。 |
+
+将军 Skill 是整个编号 Skills 队伍的总控入口。购买后即可使用，并获得安装、版本更新、队伍配置和调度方式的答疑。将军只负责组织与派发，不会改写、混合或覆盖士兵的原始美学；每张成品仍由被选中的士兵 Skill 独立完成。
+
+### 知识星球＋成员提示词库＋Skills 所有将军会员 · 699 元/年
+
+[知识星球](https://wx.zsxq.com/group/15554814142882)、[小小东成员提示词库](https://vip.xiaoxiaodong.ai/)与 Skills 所有将军会员是同一份会员权益：**一次年费同时开通三项权益，无需重复付费。**
+
+[Knowledge Planet](https://wx.zsxq.com/group/15554814142882) · [Member Prompt Library](https://vip.xiaoxiaodong.ai/)
+
+<p align="center"><a href="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png"><img src="https://xiaoxiaodong.pages.dev/assets/wechat-qr.png" alt="XXD WeChat" width="280"></a></p>
 
 ## 联系作者
 
