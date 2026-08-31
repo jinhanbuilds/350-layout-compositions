@@ -32,7 +32,7 @@
 ## 下载与数据
 
 - 单张高清图：在分类页面点击任意缩略图，即可打开 1086 × 1448 PNG。
-- 全部高清图：浏览 [`v2/images/`](v2/images/)；发布版 ZIP 将作为 GitHub Release 附件提供。
+- 全部高清图：[下载新版 350 张高清图片 ZIP](https://github.com/nevertoday/100-layout-compositions/releases/latest/download/350-layout-compositions-images.zip)，或浏览 [`v2/images/`](v2/images/)。
 - 数据目录：[`catalog.csv`](v2/catalog.csv) / [`catalog.json`](v2/catalog.json)，包含编号、名称、分类、路径、尺寸与 SHA-256。
 - 经典版 ZIP：[下载旧版 100 张高清图片](https://github.com/nevertoday/100-layout-compositions/releases/latest/download/100-layout-compositions-images.zip)。
 
