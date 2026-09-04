@@ -4,6 +4,25 @@
 
 > 这是原「100 种排版」项目的新版扩展。旧版 100 张高清图、缩略图和下方画廊均原样保留，原有链接继续可用。
 
+## 本地瀑布流图鉴
+
+直接打开 [`index.html`](index.html)，即可在桌面浏览器中使用瀑布流视图：
+
+- 悬停卡片查看名称、分类与主题线索。
+- 点击卡片从原位置展开高清详情，点击背景或按 `Esc` 收回。
+- 按名称、分类或编号搜索，并可按 8 个一级分类筛选。
+- 展开后直接阅读图片对应的设计提示词，并一键复制这段完整文本。
+
+网页图鉴按图片中的可见标题校正展示信息；源图片中存在少量同主题的不同卡片，因此网页允许主题重复，不强行把 350 个目录名称各分配一次。
+
+### 页面预览
+
+![350 种排版瀑布流总览](docs/screenshots/gallery-overview.jpg)
+
+![卡片悬停信息](docs/screenshots/gallery-hover.jpg)
+
+![原地展开并浏览图片提示词](docs/screenshots/gallery-detail.jpg)
+
 ## 浏览新版
 
 **[打开 350 种排版完整分类图鉴 →](docs/350/README.md)**　·　[下载全部图片](https://github.com/nevertoday/350-layout-compositions/releases/latest/download/350-layout-compositions-images.zip)　·　[搜索数据目录](v2/catalog.csv)
