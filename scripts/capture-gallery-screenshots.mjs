@@ -20,6 +20,22 @@ await page.emulateMedia({ reducedMotion: "reduce" });
 await page.goto(pathToFileURL(path.join(repo, "index.html")).href);
 await page.waitForSelector('.layout-card[data-id="350"]');
 await page.locator(".layout-card").first().locator("img").waitFor({ state: "visible" });
+await page.evaluate(async () => {
+  await document.fonts.ready;
+  await Promise.all(document.getAnimations().map((animation) => animation.finished.catch(() => {})));
+});
+
+async function waitForVisibleImages() {
+  await page.waitForFunction(() => {
+    const images = [...document.querySelectorAll('.layout-card img')].filter((image) => {
+      const rect = image.getBoundingClientRect();
+      return rect.bottom > 0 && rect.top < innerHeight && rect.right > 0 && rect.left < innerWidth;
+    });
+    return images.length >= 5 && images.every((image) => image.complete && image.naturalWidth > 0);
+  });
+}
+
+await waitForVisibleImages();
 
 const screenshot = (name) =>
   page.screenshot({
@@ -34,6 +50,7 @@ await screenshot("gallery-overview.jpg");
 const hoverCard = page.locator('.layout-card[data-id="044"]');
 await hoverCard.scrollIntoViewIfNeeded();
 await hoverCard.hover();
+await waitForVisibleImages();
 await page.waitForTimeout(260);
 await screenshot("gallery-hover.jpg");
 
